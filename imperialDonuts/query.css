@@ -1,0 +1,32 @@
+@media only screen and (max-width: 100vw) {
+  h2 {
+    color: blue;
+  }
+
+  .paragraph-one {
+    color: green;
+    text-decoration: underline;
+  }
+
+  #paragraph-two {
+    color: orange;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 100vw) {
+  h3 {
+    color: blue;
+  }
+
+  .paragraph-3 {
+    color: pink;
+    text-decoration: underline;
+  }
+
+  #paragraph-4 {
+    color: lightsalmon;
+    font-weight: bolder;
+    font-size: 50px;
+  }
+}

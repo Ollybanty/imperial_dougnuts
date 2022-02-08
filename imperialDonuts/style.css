@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Vesper Libre", serif;
+  color: rgb(207, 19, 107);
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  width: 90%;
+  margin: 10px auto;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(207, 19, 107);
+  font-size: 20px;
+  margin: 0 10px;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.strapline-container {
+  border: 2px solid rgb(207, 19, 107);
+  width: 90%;
+  height: 85%;
+  margin: auto auto;
+  text-align: center;
+  background-image: url(./images/donut1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-strapline {
+  color: rgb(207, 19, 107);
+  text-transform: uppercase;
+  font-size: 120px;
+  margin: 50px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.second-strapline {
+  color: #ffffdd;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.section-title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: rgb(207, 19, 107);
+  text-transform: uppercase;
+  font-size: 100px;
+  margin-bottom: 25px;
+}
+
+.about-section {
+  width: 100vw;
+  height: 90vh;
+}
+
+.about-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-box {
+  width: 45%;
+  text-align: justify;
+  line-height: 220%;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+}
+
+.right-box {
+  width: 40%;
+  margin-left: 6%;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-image1 {
+  width: 50%;
+  height: 240px;
+  background-image: url(./images/mofe-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-image2 {
+  width: 50%;
+  height: 240px;
+  background-image: url(./images/lucas&ola.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-image3 {
+  width: 50%;
+  height: 240px;
+  background-image: url(./images/coffee_2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-image4 {
+  width: 50%;
+  height: 240px;
+  background-image: url(./images/donut3.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.donuts-section {
+  width: 100vw;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.row-one,
+.row-two,
+.row-three {
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-item {
+  width: 30%;
+  height: 310px;
+
+  margin: 15px;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-item:hover {
+  opacity: 0.85;
+}
+
+.grid-item #image1 {
+  background-image: url(./images/donut-grid1.jpeg);
+}
+
+#image2 {
+  background-image: url(./images/donut-grid2.jpeg);
+}
+
+#image3 {
+  background-image: url(./images/donut-grid3.jpeg);
+}
+
+#image4 {
+  background-image: url(./images/donut-grid4.jpeg);
+}
+
+#image5 {
+  background-image: url(./images/donut-grid5.jpeg);
+}
+
+#image6 {
+  background-image: url(./images/donut-grid6.jpeg);
+}
+
+#image7 {
+  background-image: url(./images/donut-grid7.jpeg);
+}
+
+#image8 {
+  background-image: url(./images/donut-grid8.jpeg);
+}
+
+#image9 {
+  background-image: url(./images/donut-grid9.jpeg);
+}
+
+.stores-section {
+  width: 100vw;
+}
+
+.stores-container {
+  width: 90%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.store-div {
+  width: 30%;
+  margin: 20px auto;
+  height: 240px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h4 {
+  font-size: 150%;
+}
+
+.contact-section {
+  width: 100vw;
+  height: 80vh;
+  background-color: rgb(207, 19, 107);
+  text-align: center;
+  color: #ffffdd;
+}
+
+.contact-title {
+  margin: 25px 0;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 80px;
+}
+
+.email {
+  font-size: 50px;
+}
+
+.social-media-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  width: 40vw;
+}
+
+.social-media-icon {
+  margin: 0 7.5px;
+}
